@@ -18,15 +18,7 @@ public class Main {
 
             if(getString("change language - press y for yess").equalsIgnoreCase("y")) {
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-                dialog = sprog.SkiftSprog(getString("da / eng / Fin"));
-=======
-                dialog = sprog.SkiftSprog(getString("da / eng / french"));
->>>>>>> 9545a14ade3b02a26aaa17ff5ea8ab55d23015d5
-=======
-                dialog = sprog.SkiftSprog(getString("da / eng / deu"));
->>>>>>> 92a5a62c63d3b35f9112d2e83b24fb5a3c7180a0
+                dialog = sprog.SkiftSprog(getString("da / eng / Fin / french/ deu"));
 
             }
             System.out.println(dialog.selectedLanguage() + " " + dialog.getLanguage());
