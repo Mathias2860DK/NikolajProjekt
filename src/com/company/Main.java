@@ -9,6 +9,8 @@ public class Main {
 
         Dialog dialog = new English();
 
+
+
         Sprog sprog = new Sprog();
 
         while (!   getString(dialog.quit() ).equalsIgnoreCase("q") )  {
@@ -16,7 +18,7 @@ public class Main {
 
             if(getString("change language ?").equalsIgnoreCase("y")) {
 
-                dialog = sprog.SkiftSprog(getString("da / eng"));
+                dialog = sprog.SkiftSprog(getString("da / eng / french"));
 
             }
             System.out.println(dialog.selectedLanguage() + " " + dialog.getLanguage());
