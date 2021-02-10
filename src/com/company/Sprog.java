@@ -11,7 +11,6 @@ public class Sprog  {
         // her tilføjer du ny sprog
         dialoger.put("da", new Dansk());
         dialoger.put("eng", new English());
-<<<<<<< HEAD
 
         dialoger.put("Fin", new Finsk());
 
@@ -19,11 +18,11 @@ public class Sprog  {
 
         dialoger.put("deu", new Tysk());
 
-=======
+
         dialoger.put("Fin", new Finsk());
         dialoger.put("french", new Fransk());
         dialoger.put("deu", new Tysk());
->>>>>>> cf821985e0604c6c44dba69bd25afc1d0d3a2d05
+
 
     }
     public Dialog SkiftSprog(String s) {
