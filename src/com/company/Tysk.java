@@ -1,8 +1,8 @@
 package com.company;
 
-public class Dansk implements Dialog {
+public class Tysk implements Dialog {
 
-    private String s = "danish";
+    private String s = "tysk";
 
     @Override
     public String getLanguage() {
@@ -11,13 +11,11 @@ public class Dansk implements Dialog {
 
     @Override
     public String quit() {
-        return "tryk q for at stoppe ";
+        return "Drücken Sie q, um anzuhalten";
     }
 
     @Override
     public String selectedLanguage() {
-        return "det valgte sprog er ";
+        return "Die ausgewählte Sprache ist";
     }
-
-
 }
