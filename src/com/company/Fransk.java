@@ -20,6 +20,11 @@ public class Fransk implements Dialog {
     public String selectedLanguage() {
         return "la langue sélectionnée est ";
     }
+
+    @Override
+    public String whereDoYouLive() {
+        return "tu habit jeu";
+    }
 }
 
 

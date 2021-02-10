@@ -17,4 +17,9 @@ public class English implements Dialog{
     public String selectedLanguage() {
         return "the selected language is ";
     }
+
+    @Override
+    public String whereDoYouLive() {
+        return "where do you live?";
+    }
 }

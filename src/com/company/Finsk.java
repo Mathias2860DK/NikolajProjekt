@@ -14,4 +14,9 @@ public class Finsk implements Dialog {
 
     @Override
     public String selectedLanguage() { return " Valittu kieli on";}
+
+    @Override
+    public String whereDoYouLive() {
+        return "Missä sinä asut";
+    }
 }

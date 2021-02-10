@@ -23,7 +23,13 @@ public class Main {
 
 
             }
-            System.out.println(dialog.selectedLanguage() + " " + dialog.getLanguage());
+            System.out.println(dialog.selectedLanguage() + " " + dialog.getLanguage() + " ");
+            Scanner scanner = new Scanner(System.in);
+            System.out.println(dialog.whereDoYouLive());
+            String whereDoYouLive = scanner.nextLine();
+            System.out.println(whereDoYouLive);
+
+
 
         }
 

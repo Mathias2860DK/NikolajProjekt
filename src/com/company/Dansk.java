@@ -19,5 +19,10 @@ public class Dansk implements Dialog {
         return "det valgte sprog er ";
     }
 
+    @Override
+    public String whereDoYouLive() {
+        return "Hvor bor du";
+    }
+
 
 }

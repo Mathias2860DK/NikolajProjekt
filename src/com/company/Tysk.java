@@ -18,4 +18,9 @@ public class Tysk implements Dialog {
     public String selectedLanguage() {
         return "Die ausgewählte Sprache ist";
     }
+
+    @Override
+    public String whereDoYouLive() {
+        return "Who whonst du?";
+    }
 }

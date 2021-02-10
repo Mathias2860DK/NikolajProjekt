@@ -8,6 +8,8 @@ public interface Dialog {
 
     public String selectedLanguage();
 
+    public String whereDoYouLive();
+
     // find på to dialoger selv i gruppen.
 
 }
